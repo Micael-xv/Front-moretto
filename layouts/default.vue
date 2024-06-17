@@ -9,9 +9,6 @@
           <v-col>
             <v-btn class="mt-4 text-capitalize" to="/" variant="plain">Inicio</v-btn>
           </v-col>
-          <v-col>
-            <v-btn class="mt-4 ml-n6 text-capitalize" to="/teste/" variant="plain">Teste</v-btn>
-          </v-col>
           <v-col class="mt-n1">
             <v-card-text>
               <v-text-field
