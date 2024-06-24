@@ -27,11 +27,7 @@ export default defineNuxtPlugin(() => {
     }
     return teste
   })
-
-  // api.interceptors.request.use((_) => {
-  //   console.log(window.localStorage.getItem('token'));
-  // })
-
+  
   return {
     provide: {
       api: api
