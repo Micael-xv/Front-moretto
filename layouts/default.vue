@@ -28,8 +28,7 @@
         </v-row>
       </template>
       <template #append>
-        <v-btn> Bem-vindo, ...</v-btn>
-        <v-btn icon="mdi-cart-outline" title="Carrinho"/>
+        <v-btn icon="mdi-security" title="Admin" to="../admin"/>
         <v-btn class="text-capitalize" icon="mdi-login" to="/login/" title="Clique para fazer login"/>
         <v-btn icon="mdi-dots-vertical" title="Configuração"/>
       </template>
@@ -51,10 +50,7 @@
     methods: {
       onClick () {
         this.loading = true
-        setTimeout(() => {
-          this.loading = false
-          this.loaded = true
-        }, 2000)
+        this.loading = false
       },
     },
   }

@@ -127,7 +127,7 @@
                 procura em um único destino!
               </div>
               <v-divider />
-              <div>{{ new Date().getFullYear() }} — <strong>CRSTORE</strong></div>
+              <div>{{ new Date().getFullYear() }} — <strong>LOJA</strong></div>
             </v-footer>
           </v-col>
         </v-row>
